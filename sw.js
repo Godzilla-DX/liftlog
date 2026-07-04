@@ -2,7 +2,7 @@
    - アプリ本体(app.js等)はオフライン用にキャッシュ（cache-first）
    - exercises.json だけは「ネット優先」。GitHubで編集したら、オンラインで開いた時に最新が反映される
    アプリ本体を更新したら下の "liftlog-v3" の番号を上げる（v4,v5…）。種目の編集では上げる必要なし。 */
-const CACHE = "liftlog-v5";
+const CACHE = "liftlog-v6";
 const ASSETS = [
   "./", "./index.html", "./app.js", "./manifest.json", "./exercises.json",
   "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png", "./favicon-32.png"
